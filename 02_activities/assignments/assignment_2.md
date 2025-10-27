@@ -49,9 +49,11 @@ While this cannot be called an outright bad example of a bar chart, I decided to
 * Add legend elements
 * Highlight the message clearly
 
-Additional source: (Data Visualization for Data Analysts and Analytics by Bill Shander)[https://www.linkedin.com/learning/data-visualization-for-data-analysts-and-analytics/moving-from-analasys-to-visualization]
+Additional source: [Data Visualization for Data Analysts and Analytics by Bill Shander](https://www.linkedin.com/learning/data-visualization-for-data-analysts-and-analytics/moving-from-analasys-to-visualization)
 
-- Word count should not exceed (as a maximum) 500 words for each visualization (i.e. 
+
+
+Word count should not exceed (as a maximum) 500 words for each visualization (i.e. 
 300 words for your good example and 500 for your bad example)
 
 ### Why am I doing this assignment?:
