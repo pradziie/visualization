@@ -8,22 +8,42 @@
 - Using Python and one other data visualization software (Excel or free alternative, Tableau Public, any other tool you prefer), create two distinct visualizations from your dataset of choice.  
 - For each visualization, describe and justify: 
     > What software did you use to create your data visualization?
+    * Python: both Seaborn and PlotLy (.ipynb file). **Must be run first** to save the dataset for Power BI.
+
+    * Power BI: two pages with a .csv dataset saved by the Python script to a relative path. No RDB or data models. Just a single file from the script. Sadly, web and API connectors were not working due to access being locked. I also created a UofT color/font Power BI scheme .json file under Color Schemes folder for everyone's use. 
+
+    * Excel: just a bonus file with a different dataset. Has a couple pages with a table and a chart. Used to create a UofT Excel color scheme. In Windows, you can save the scheme under:
+    C:\Users\<YourName>\AppData\Roaming\Microsoft\Templates\Document Themes\Theme Colors\
 
     > Who is your intended audience? 
-    
+    * Learning support :D. But seriously, OPS (Ontario Public Sector) is.
+
     > What information or message are you trying to convey with your visualization? 
+    * Male vs Female pay delta trend in OPS over the years. Data also excludes anyone who does not identify as male or female, which could skew the results.
+
     
-    > What aspects of design did you consider when making your visualization? How did you apply them? With what elements of your plots? 
+    > What aspects of design did you consider when making your visualization? How did you apply them? With what elements of your plots?
+    * Bar charts, line charts, donut charts. Will probably add more later.
     
-    > How did you ensure that your data visualizations are reproducible? If the tool you used to make your data visualization is not reproducible, how will this impact your data visualization? 
+    > How did you ensure that your data visualizations are reproducible? If the tool you used to make your data visualization is not reproducible, how will this impact your data visualization?
+    * I added a line to the Python file which saves the dataset to a relative path.
+    * Python file itself does not use that file, it connects to it via the web.
+    * Saved file is used by Power BI. However, the source may have to be reconnected if the path changes. Sadly, web connectors and API calls did not work without logging into OPS.
     
-    > How did you ensure that your data visualization is accessible?  
+    > How did you ensure that your data visualization is accessible?
+    * Avoided too many red/green colors. Used contrast. Simplified the visuals.  
     
-    > Who are the individuals and communities who might be impacted by your visualization?  
+    > Who are the individuals and communities who might be impacted by your visualization?
+    * OPS workers curious about everyone's pay, ahah!  
     
     > How did you choose which features of your chosen dataset to include or exclude from your visualization? 
+    * Ratios of some pay ranges had to be calculated and added in Python. May add in Power BI as a measure or transformed column later.
     
     > What ‘underwater labour’ contributed to your final data visualization product?
+    * Learning staff checking this <: 
+    * Me doing some of these activities to get used to producing those color schemes. I hope someone uses them later.
+    * My gaming PC pulling way too much wattage over time for this
+    * Python existing in open-source. Can't imagine how much went into that.
 
 - This assignment is intentionally open-ended - you are free to create static or dynamic data visualizations, maps, or whatever form of data visualization you think best communicates your information to your audience of choice! 
 - Total word count should not exceed **(as a maximum) 1000 words** 
